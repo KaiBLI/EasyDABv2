@@ -1,6 +1,11 @@
-# EasyDAB Assembly Options
+# EasyDAB v2 Assembly Options
+The EasyDAB v2 is a versitile board allowing for usage with transmitting a DAB ensemble from a single board and using multiple EasyDAB v2 boards to extend the range of your broadcast ensemble. If you wish to build for usage with a SFN there are additional components and considerations you need to make which are covered in this document. Additionally, you can build initially for non-SFN usage and later add the SFN components to enable that functionality. SFN does add a significant cost to the assembly of the board, so you will probably only want to use those components if you are certain you want to go down the SFN route, and that to gain any benefit from purchasing those components you will actually need to double up that order as SFN requires at least two EasyDAB v2 boards. The author of this document has yet to experiment with SFN usage, so much of this information I have obtained by examining schematics and obtaining information from other members of the OpenDigitalRadio Telegram group. Big thanks to Rash for providing some high-level information that has allowed me to sink my teeth into this project. 
 
-With the EasyDAB v2 you have a couple of assembly options, most hobbyists looking to dabble into DAB will probably want to start off with the options installing the Mini360 modules, the RBP-204+ band pass filter and electing to -not- install the SFN components.
+This document also covers your options for acheiving RF filtering, which is a non-optional step you must take to avoid polluting the RF spectrum with harmonics as well as the decision whether to utilize the Mini360 DC-DC converter modules or source our own equivalent components for directly soldering on the board. 
+
+As a word of advice for people starting out, I would suggest startin off with the options installing the Mini360 modules, the RBP-204+ band pass filter and electing to -not- install the SFN components.
+
+Final bit of advice, I would suggest gaining some experience with soldering before engaging on this project. A number of the ICs such as the FPGA and Digital Synthesiser are fairly expensive and have a very high pin density. Good solder, good flux, a steady hand as well as a microscope is required! 
 
 # 1. The Mini360 Modules
 
