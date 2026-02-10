@@ -2,7 +2,7 @@
 Repository of Plain-English Information for Sergiy's EasyDAB DAB Exciter Board
 
 # Introducton
-First off, much of this is not my original work, credit goes to Sergiy for the design and release of the EasyDAB board.
+First off, much of this is not my original work, credit goes to Sergiy for the design and release of the EasyDAB board. His site can be found here: https://tipok.org.ua/node/46
 
 Secondly, this is a repository of the information I've learned through trying to manufacture one of these boards myself in order that folks in the future have an easier time with it than me.
 There are a couple of issues with the original release of this board, firstly, I have not been able to find a license or any information regarding copyright of this board. Given that this was done in collaboration with the OpenDigitalRadio group, it is assumed that the board was released under similar licensing to the other projects under OpenDigitalRadio, that is permitting deriative work which is also licensed under the GPL and with credit to the original creator. 
