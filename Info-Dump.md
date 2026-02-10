@@ -11,7 +11,7 @@ The EasyDAB will supply both boards with 5v, but each needs to be configured for
 
 The Mini-360 Module closest to the DC Barrel Jack with IC11 labelled on the PCB must output 3.3v (Potentiometer configured for 21.5kOhm), while the Mini-360 module closest to the RF_OUT with IC10 labelled on the PCB must be configured for 1.8v output (Potentiometer configured for 7.87kOhm). It is advisable to run in 5v with a dummy load on the module's output and ensure that the potentiometers are configured for the correct output voltages BEFORE installing on the module. 
 
-# 2. Band PAss Filter / Low Pass Filter
+# 2. Band Pass Filter / Low Pass Filter
 
 The band pass filter is perhaps the easier option for acheiving RF filtering of the outputted signal. RF filtering is essential if you are using the EasyDAB board outside of a RF shielded box. This is because an unfiltered signal will spread RF harmonics all over the spectrum potentially interfering with licensed services and other lawful users of the RF spectrum. You could get in significant trouble with the associated regulatory bodies in your country if you do not filter your signal! However, there are three options to acheive RF filtering. You can either use the RBP-204+, the RBP-220+ or a set of passive componenets. The below covers the advantages and disadvantages of these options.
 
@@ -58,12 +58,14 @@ One can forgo the RBP-204+/RBP-220+ and instead install a series of capacitors a
 This may(?) acheive a lesser quality of filtering, however has the advantage of utilizing cheaper components. Additionally, if one wishes to use the EasyFM firmware, this should work for that too. (This I have not been able to test, Sergiy's site only mentions the usage of low pass filtering instead of band pass filtering for EasyFM - I ASSUME that references the circit diagram of using the inductors/capacitors)
 
 _Advantages:_
+
 Easiest and cheapest components to source
 
 Works for EasyFM(tbc)
 
 
 _Disadvantages_
+
 Possibly lesser quality of filtering
 
 More soldering and quantity of components to source
