@@ -134,3 +134,41 @@ The EasyDAB v2 board allows you to use multiple boards to create a single freque
 Most folks who are looking to build microtransmitters within their own home or properties will most likely not need this. You will probably have an easier time boosting the power of your signal to acheive the desired range rather than needing to go down the SFN tunnel. However, if you are restricted by power limitations on restricted license/no-license regulations from your jurisdiction, you may find SFN useful as the regulations may be silent on the -quantity- of transmitters on the same frequency as such regulations usually only stipulate power of individual broadcasts. 
 
 Using the design of Sergiy's board, you can initially build for non-SFN usage and later upgrade to the components needed for SFN at a later date if desired. 
+
+The components required for SFN are as follows and can be excluded from your BoM if you do not need SFN:
+_VCTCXO_
+X4 - 19.2Mhz OPL Crystal Oscellator
+R36 - 10k
+R37 - 100k
+R38 - 100k
+R41 - 100k
+C75 - 10nF
+C78 - 100n
+
+_RF In_
+REF_IN - SMA Connector
+C74 - 10nF
+R34 - 50Ohm
+
+_Ublox NEO-M8N_
+u-blox NEO - GPS IC
+L2 - 33nH
+C79 - 100nF
+C80 - 100nF
+R39 - 10R
+R40 - 1K
+LED4 - 1PPS
+
+SFN also needs the Additional SRAM
+You may yield additional benefits such as board stability when receiving a ETI stream if you install the additional SRAMs regardless. I would therefore advise doing so regardless unless you are really pinched for costs. 
+
+IC8 - 23LC1024
+IC9 - 23LC1024
+
+If you are building for Non-SFN Usage
+You must install
+R21 - 1M
+Q2 - 24.576Mhz Clock Oscellator 
+
+
+
