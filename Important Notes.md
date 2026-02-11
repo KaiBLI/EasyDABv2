@@ -3,4 +3,5 @@
 Thank you to PancakePuppy for Saving my Ass.
 
 C42 C43 - 27pF
+
 C46 C47 - 100pF
