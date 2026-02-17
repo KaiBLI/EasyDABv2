@@ -23,4 +23,6 @@ Of an interesting note, Canada originally did small scale experimentation with D
 Digital Terrestrial Radio has seen lesser usage in the US and Canada due to the popularization of Satellite Radio on the L Band thanks to SiriusXM. 
 Band III in the US is allocated for VHF System M Digital TV Channels 7-13 (174Mhz-216Mhz) as well as Amateur, Land Mobile, Fixed in the 216-240Mhz ranges.
 
-
+# How does the EasyDAB v2 Board Work?
+The EasyDAB v2 board requires a DAB Multiplex (also known as an Ensemble) to be configured and running on a server. The multiplex/ensemble is a collection of audio and data services packaged together and provided in a ZMQ or ETI stream to be received by the EasyDAB board.
+The EasyDAB board has a Xilinx Spartian 6 FPGA configured to handle the DAB modulation after which it sends the data to a Digital Synthesiser to generate the digital frequency. It then passes through a mini baulin to step up the frequency strength, through either a low pass filter or a band pass filter (Depending on your config), through a Low Noise Amplifier and out to a SMA Jack to a broadcast antenna. The generated signal can then be received on DAB/DAB+ hardware. 
