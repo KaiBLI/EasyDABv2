@@ -1,1 +1,2 @@
-# This Folder Contains KiCAD PCB Map and Schematic
+# KiCAD PCB Map and Schematic
+The current design of the EasyDAB PCB has a silkscreen with component labels covered by a myriad of solder pads. It is therefore essential for you to be familiar with the PCB map to accurately locate where components should go. You should not trust the PCB silkscreen to be accurate or clear on where things should go and should not be relied on. The PCB Map can be viewed by the KiCad PCB Editor, by using the search function, KiCad will highlight the appropriate solder pads for each component. 
