@@ -31,6 +31,7 @@ I will proceed to create high-resolution and detailed photos of both empty board
 The existing bill of materials leave too much up to assumption, therefore I will create a digikey cart and an Excel sheet of components required including example part numbers. It is assumed that components over time will be obsoleted and substitutes will be required, hence specification of components will be detailed as possible.
 
 4. New Features
+
 The board already supports DRM and FM modulation in addition to DAB/DAB+, theortically additional FPGA core/firmware could be built for other digital modulation such as HDRadio/NRSC5 and DVB. 
 
 6. Board redesign.
