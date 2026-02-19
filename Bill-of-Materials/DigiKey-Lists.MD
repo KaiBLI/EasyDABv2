@@ -8,6 +8,8 @@ Main ICs (FPGA/DAC/Main SRAM/Ethernet Controller): https://www.digikey.com/en/my
 
 Main Passives & Voltage Regulators: https://www.digikey.com/en/mylists/list/4SKKTAJE6A
 
+DC-DC - The Mini360 DC-DC Buck Converter required for 3.3v and 1.8v on the board does not appear to be available at DigiKey, but it can be found at many other suppliers such as Amazon, eBay and AliExpress, here's an example listing from RobotShop https://www.robotshop.com/products/mini-360-dc-dc-buck-converter .
+
 # SRAM Option (Strongly Recommended)
 23LC1024 SRAM: https://www.digikey.com/en/mylists/list/1WGT9OCI7E
 
