@@ -2,6 +2,8 @@
 
 # DAB Board Main
 
+The ICs have been separated from the passives as you may wish to source the ICs from a cheaper source than DigiKey, FPGAs and DACs can be found on eBay for a significant discounts, but come with the added risk of being non-genuine parts. 
+
 Main ICs (FPGA/DAC/Main SRAM/Ethernet Controller): https://www.digikey.com/en/mylists/list/T6NBFB3ZXT
 
 Main Passives & Voltage Regulators: https://www.digikey.com/en/mylists/list/4SKKTAJE6A
