@@ -8,7 +8,7 @@ Essential ICs (FPGA/DAC/Main SRAM/Ethernet Controller): https://www.digikey.com/
 
 Essential Components: https://www.digikey.com/en/mylists/list/4SKKTAJE6A
 
-Essential SPI Flash: A SPI Flash is requried which stores the FPGA Core and the Firmware, the part number of the original design is M25P16 S0-08 Gull Wing Package, however other components may be compatible. You will need to source this separately. eBay Source here: https://www.ebay.com/itm/334848598580
+Essential SPI Flash: A SPI Flash is requried which stores the FPGA Core and the Firmware, the part number of the original design is M25P16 S0-08 Gull Wing Package, however other components may be compatible. You will need to source this separately as it is marked as obsolite by DigiKey and is no longer stocked. eBay Source here: https://www.ebay.com/itm/334848598580
 
 Essential RJ-45 Jack: The HR911105A RJ-45 Jack does not appear to be available on DigiKey, you will need to source it elsewhere. Here's an example listing: https://www.lcsc.com/product-detail/C12074.html
 
