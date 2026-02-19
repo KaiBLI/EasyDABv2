@@ -24,5 +24,9 @@ Digital Terrestrial Radio has seen lesser usage in the US and Canada due to the 
 Band III in the US is allocated for VHF System M Digital TV Channels 7-13 (174Mhz-216Mhz) as well as Amateur, Land Mobile, Fixed in the 216-240Mhz ranges.
 
 # How does the EasyDAB v2 Board Work?
-The EasyDAB v2 board requires a DAB Multiplex (also known as an Ensemble) to be configured and running on a server. The multiplex/ensemble is a collection of audio and data services packaged together and provided in a ZMQ or ETI stream to be received by the EasyDAB board.
-The EasyDAB board has a Xilinx Spartian 6 FPGA configured to handle the DAB modulation after which it sends the data to a Digital Synthesiser to generate the digital frequency. It then passes through a mini baulin to step up the frequency strength, through either a low pass filter or a band pass filter (Depending on your config), through a Low Noise Amplifier and out to a SMA Jack to a broadcast antenna. The generated signal can then be received on DAB/DAB+ hardware. 
+The EasyDAB v2 board requires a DAB Multiplex (also known as an Ensemble) to be configured and running on a server, this can be acheived by using the OpenDigitalRadio (ODR) Tools, specifically ODR-AudioEnc to process an audio source into a compatible format for DAB use and ODR-DabMux to build an Ensemble. Additionally you may want to use ODR-PadEnc to provide Programme Additional Data to your broadcasted stations. For reference, a multiplex/ensemble is a collection of audio and data services packaged together and provided in a ZMQ or ETI stream to be received by the EasyDAB board.
+
+
+The EasyDAB board has a Xilinx Spartan 6 FPGA configured to handle the DAB modulation after which it sends the data to a Digital Synthesiser to generate the digital frequency. It then passes through a mini baulin to step up the frequency strength, through either a low pass filter or a band pass filter (Depending on your config), through a Low Noise Amplifier and out to a SMA Jack to a broadcast antenna. The generated signal can then be received on DAB/DAB+ hardware. 
+
+If you are using a Low Pass Filter, you can load alternative firmware onto the board to broadcast FM or Digital Radio Mondiale signals. 
