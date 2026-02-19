@@ -32,3 +32,4 @@ Band Pass Fiter (Only Supports DAB Band III Frequencies - Easier to Install): ht
 IF you wish to use SFN, you will need at least two EasyDAB boards configured with a TC Oscillator, additional SRAMs and the GPSDO module. 
 GPSDO: https://www.digikey.com/en/mylists/list/PNWZ96SRTK
 
+Additionally a surface mount GPS antenna RF In is reqired at the REF_IN location on the board so the GPSDO can get a signal. I'm not sure what component fits the requirements for this. 
