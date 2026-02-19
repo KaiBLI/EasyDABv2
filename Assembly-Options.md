@@ -3,7 +3,7 @@ The EasyDAB v2 is a versitile board allowing for usage with transmitting a DAB e
 
 This document also covers your options for acheiving RF filtering, which is a non-optional step you must take to avoid polluting the RF spectrum with harmonics as well as the decision whether to utilize the Mini360 DC-DC converter modules or source our own equivalent components for directly soldering on the board. 
 
-As a word of advice for people starting out, I would suggest startin off with the options installing the Mini360 modules, the RBP-204+ band pass filter and electing to -not- install the SFN components.
+As a word of advice for people starting out, I would suggest starting off with the options installing the Mini360 modules, the RBP-204+ band pass filter and the additional SRAMs for stability To build a bare minimum EasyDAB board, you must at least decide on whether to use the Mini360, whether to use Temperature-Controlled or Quartz Oscillator and deciding what filtering to use. The GPS and Additional SRAMs are optional. Do not install the GPS unless you plan on doing SFN.  
 
 Final bit of advice, I would suggest gaining some experience with soldering before engaging on this project. A number of the ICs such as the FPGA and Digital Synthesiser are fairly expensive and have a very high pin density. Good solder, good flux, a steady hand as well as a microscope is required! 
 
