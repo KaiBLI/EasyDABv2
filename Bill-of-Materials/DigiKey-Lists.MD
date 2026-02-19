@@ -18,7 +18,7 @@ Quartz Oscillator: https://www.digikey.com/en/mylists/list/ATKNHPW9MJ
 
 # Filtering Options
 
-Low Pass Filter (Needed for EasyFM/EasyDRM): 
+Low Pass Filter (Needed for EasyFM/EasyDRM): https://www.digikey.com/en/mylists/list/UZGJUMNWCD
 
 Band Pass Fiter (Only Supports DAB Band III Frequencies): https://www.digikey.com/en/mylists/list/YETD7D4YD4
 
