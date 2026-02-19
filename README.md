@@ -1,5 +1,5 @@
-# EasyDAB
-Repository of Plain-English Information for Sergiy's EasyDAB DAB Exciter Board
+# EasyDABv2
+Repository of Plain-English Information for Sergiy's EasyDABv2 DAB Exciter Board. This is not to be confused with the EasyDABv1 which is a USB-based DAB exciter board. The USB DAB Board requires a computer to handle modulation while the v2 board utilizes a FPGA for independent operation.
 
 # Introducton
 First off, much of this is not my original work, credit goes to Sergiy for the design and release of the EasyDAB board. His site can be found here: https://tipok.org.ua/node/46
