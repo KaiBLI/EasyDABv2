@@ -1,0 +1,452 @@
+{
+  "have_half_hole": false,
+  "board_split_type": -1,
+  "color_sm": "红",
+  "color_ss": "白色",
+  "cu_inner": 0.0,
+  "cu_outer": 1.0,
+  "dir_input": "D:\\JlcAutoCam\\input\\7340111a_y6_4984_1768007653249",
+  "dir_output": "D:\\JlcAutoCam\\output\\7340111A_Y6\\7340111A_Y6",
+  "eda_type": "KICAD",
+  "file_output": "",
+  "file_type": "gerber",
+  "files": [
+    {
+      "file": "W5500_LX9_AD9957_sramv2_gps-F_Silkscreen.gbr",
+      "format": {
+        "coordinates": "absolute",
+        "decimal": "no",
+        "nf1": 4,
+        "nf2": 6,
+        "tool_units": "mm",
+        "type": "Gerber274x",
+        "units": "mm",
+        "zeroes": "leading"
+      },
+      "layer": "to",
+      "offset": {
+        "mi": 0,
+        "mi_x": 0.0,
+        "mi_y": 0.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      "negative_info": {
+        "is_neg": 0
+      }
+    },
+    {
+      "file": "W5500_LX9_AD9957_sramv2_gps-F_Paste.gbr",
+      "format": {
+        "coordinates": "absolute",
+        "decimal": "no",
+        "nf1": 4,
+        "nf2": 6,
+        "tool_units": "mm",
+        "type": "Gerber274x",
+        "units": "mm",
+        "zeroes": "leading"
+      },
+      "layer": "tp",
+      "offset": {
+        "mi": 0,
+        "mi_x": 0.0,
+        "mi_y": 0.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      "negative_info": {
+        "is_neg": 0
+      }
+    },
+    {
+      "file": "W5500_LX9_AD9957_sramv2_gps-F_Mask.gbr",
+      "format": {
+        "coordinates": "absolute",
+        "decimal": "no",
+        "nf1": 4,
+        "nf2": 6,
+        "tool_units": "mm",
+        "type": "Gerber274x",
+        "units": "mm",
+        "zeroes": "leading"
+      },
+      "layer": "ts",
+      "offset": {
+        "mi": 0,
+        "mi_x": 0.0,
+        "mi_y": 0.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      "negative_info": {
+        "is_neg": 0
+      }
+    },
+    {
+      "file": "W5500_LX9_AD9957_sramv2_gps-F_Cu.gbr",
+      "format": {
+        "coordinates": "absolute",
+        "decimal": "no",
+        "nf1": 4,
+        "nf2": 6,
+        "tool_units": "mm",
+        "type": "Gerber274x",
+        "units": "mm",
+        "zeroes": "leading"
+      },
+      "layer": "tl",
+      "offset": {
+        "mi": 0,
+        "mi_x": 0.0,
+        "mi_y": 0.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      "negative_info": {
+        "is_neg": 0
+      }
+    },
+    {
+      "file": "W5500_LX9_AD9957_sramv2_gps-Edge_Cuts.gbr",
+      "format": {
+        "coordinates": "absolute",
+        "decimal": "no",
+        "nf1": 4,
+        "nf2": 6,
+        "tool_units": "mm",
+        "type": "Gerber274x",
+        "units": "mm",
+        "zeroes": "leading"
+      },
+      "layer": "ko",
+      "offset": {
+        "mi": 0,
+        "mi_x": 0.0,
+        "mi_y": 0.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      "negative_info": {
+        "is_neg": 0
+      }
+    },
+    {
+      "file": "W5500_LX9_AD9957_sramv2_gps-B_Silkscreen.gbr",
+      "format": {
+        "coordinates": "absolute",
+        "decimal": "no",
+        "nf1": 4,
+        "nf2": 6,
+        "tool_units": "mm",
+        "type": "Gerber274x",
+        "units": "mm",
+        "zeroes": "leading"
+      },
+      "layer": "bo",
+      "offset": {
+        "mi": 0,
+        "mi_x": 0.0,
+        "mi_y": 0.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      "negative_info": {
+        "is_neg": 0
+      }
+    },
+    {
+      "file": "W5500_LX9_AD9957_sramv2_gps-B_Paste.gbr",
+      "format": {
+        "coordinates": "absolute",
+        "decimal": "no",
+        "nf1": 4,
+        "nf2": 6,
+        "tool_units": "mm",
+        "type": "Gerber274x",
+        "units": "mm",
+        "zeroes": "leading"
+      },
+      "layer": "bp",
+      "offset": {
+        "mi": 0,
+        "mi_x": 0.0,
+        "mi_y": 0.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      "negative_info": {
+        "is_neg": 0
+      }
+    },
+    {
+      "file": "W5500_LX9_AD9957_sramv2_gps-B_Mask.gbr",
+      "format": {
+        "coordinates": "absolute",
+        "decimal": "no",
+        "nf1": 4,
+        "nf2": 6,
+        "tool_units": "mm",
+        "type": "Gerber274x",
+        "units": "mm",
+        "zeroes": "leading"
+      },
+      "layer": "bs",
+      "offset": {
+        "mi": 0,
+        "mi_x": 0.0,
+        "mi_y": 0.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      "negative_info": {
+        "is_neg": 0
+      }
+    },
+    {
+      "file": "W5500_LX9_AD9957_sramv2_gps-B_Cu.gbr",
+      "format": {
+        "coordinates": "absolute",
+        "decimal": "no",
+        "nf1": 4,
+        "nf2": 6,
+        "tool_units": "mm",
+        "type": "Gerber274x",
+        "units": "mm",
+        "zeroes": "leading"
+      },
+      "layer": "bl",
+      "offset": {
+        "mi": 0,
+        "mi_x": 0.0,
+        "mi_y": 0.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      "negative_info": {
+        "is_neg": 0
+      }
+    },
+    {
+      "file": "W5500_LX9_AD9957_sramv2_gps-PTH.drl",
+      "format": {
+        "coordinates": "absolute",
+        "decimal": "yes",
+        "nf1": 0,
+        "nf2": 0,
+        "tool_units": "mm",
+        "type": "Excellon2",
+        "units": "mm",
+        "zeroes": "trailing"
+      },
+      "layer": "drl",
+      "offset": {
+        "mi": 0,
+        "mi_x": 0.0,
+        "mi_y": 0.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      "negative_info": {
+        "is_neg": 0
+      }
+    },
+    {
+      "file": "W5500_LX9_AD9957_sramv2_gps-NPTH.drl",
+      "format": {
+        "coordinates": "absolute",
+        "decimal": "yes",
+        "nf1": 0,
+        "nf2": 0,
+        "tool_units": "mm",
+        "type": "Excellon2",
+        "units": "mm",
+        "zeroes": "trailing"
+      },
+      "layer": "npth",
+      "offset": {
+        "mi": 0,
+        "mi_x": 0.0,
+        "mi_y": 0.0,
+        "x": 0.0,
+        "y": 0.0
+      },
+      "negative_info": {
+        "is_neg": 0
+      }
+    }
+  ],
+  "finished": "有铅喷锡",
+  "gold_finger_bevel": 0,
+  "is_octagonal_pad": 0,
+  "is_smt": false,
+  "is_standard_smt": false,
+  "layers": 2,
+  "make_set_pcs_sizex": 9.98,
+  "make_set_pcs_sizey": 4.98,
+  "make_set_count_x": 0,
+  "make_set_count_y": 0,
+  "make_set_edge_size": 0.0,
+  "make_set_edge_is_long": -1,
+  "make_set_space_x": 0.0,
+  "make_set_space_y": 0.0,
+  "qr_code_flag": 0,
+  "qr_code_size": 0,
+  "qr_code_position": 0,
+  "trace_code_print_type": 0,
+  "real_qr_code_size": 0,
+  "make_set_type": 0,
+  "plate_type": "FR4",
+  "plate_type_int": 1,
+  "po": "7340111A_Y6",
+  "po_id": 75182548,
+  "print_customer_code": 0,
+  "print_date_info": 0,
+  "profile_layer": "gko",
+  "profile_type": 1,
+  "size_x": 9.98,
+  "size_y": 4.98,
+  "thickness": 1.6,
+  "via": "过孔盖油",
+  "qr_code_format": 0,
+  "smt_qr_code_format": 0,
+  "real_smt_qr_code_size": 0,
+  "real_smt_qr_code_size_x": 0,
+  "internal_board_trace_code_flag": 0,
+  "smt_serial_flag": 0,
+  "back_drill_flag": 0,
+  "counter_bore_angle": 0,
+  "window_hole_flag": false,
+  "technical_edit_data": {
+    "counter_bore_data": [],
+    "qr_code_info": [],
+    "customer_code_info": {
+      "layer_id": 0,
+      "size_y": 0.0,
+      "customer_code": null,
+      "rotation": 0.0,
+      "customer_code_bbox": {
+        "left_down": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "left_up": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "right_down": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "right_up": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "rotation": 0.0
+      }
+    },
+    "ul_data": {
+      "layer_id": 0,
+      "width": 0,
+      "height": 0,
+      "ratio": 0.0,
+      "rotation": 0.0,
+      "center": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "ul_bbox": {
+        "left_down": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "left_up": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "right_down": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "right_up": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "rotation": 0.0
+      }
+    },
+    "dfm_layer": []
+  },
+  "qr_size": 0.0,
+  "technical_edit_flag": false,
+  "order_counterbore_list": [],
+  "technical_remarks": "[不加客编]",
+  "engineering_remarks": "",
+  "system_remarks": "",
+  "remarks_autocam_flag": false,
+  "blind_via_hole_flag": false,
+  "blind_via_hole_list": [],
+  "produce_date_pcs_flag": false,
+  "puzzle_stencil_type": 0,
+  "puzzle_border_position": 0,
+  "allow_auto_cam_remark_flag": 1,
+  "is_color_silk_screen": 0,
+  "metal_bind_flag": false,
+  "is_half_hole": false,
+  "half_hole_number": 0,
+  "color_silkscreen_flag": false,
+  "add_ul_number": 0,
+  "board_identify_number": "",
+  "have_more_slot_layer": false,
+  "have_impedance": false,
+  "have_pressfit": false,
+  "custom_stacking_structure": false,
+  "final_special_offer_type": 0,
+  "brand_type": 1,
+  "audit_param_null_flag": false,
+  "minaper_ture": "0.3mm(免费)(外径0.4/0.45)",
+  "history_stencil_type": 1,
+  "stencil_type": 6,
+  "bilind_hole": 0,
+  "profile_warn": 0,
+  "octagonal_pad": 0,
+  "image_file_path": "",
+  "split_bord_type": -1,
+  "stencil_number": 1,
+  "has_annex_file_flag": false,
+  "free_audit": true,
+  "special_price_flag": false,
+  "order_type": 1,
+  "batch_order_free_price_config_value": 2000.0,
+  "internet_pay_totalmoney": 0.0,
+  "special_process_flag": false,
+  "special_process_money_config_vaule": 5000.0,
+  "third_puzzle_flag": false,
+  "bord_type": 1,
+  "gerber_file_count": 1,
+  "back_order_type": -1,
+  "cam_more_layer_money_config_value": 10000.0,
+  "not_auto_cam_reason": "",
+  "initial_auto_cam_audit_result": 1,
+  "made_steel_flag": false,
+  "add_original_produce_flag": false,
+  "old_stencil_layer": 2,
+  "batch_money_intercept": false,
+  "smt_money_intercept": false,
+  "grid_size": -1.0,
+  "inconsistent_layers": false,
+  "in_the_blacklist": false,
+  "annex_intercept": false,
+  "bga_intercept": false,
+  "min_plug_hole_intercept": false,
+  "custom_code_add_plain_code_intercept": false,
+  "autocam_check_result": 1,
+  "tech_affect_auto_cam": 0,
+  "overseas_flag": true,
+  "erp_autocam_check_result": 1,
+  "add_custom_serial_code": "",
+  "prefabricate_type": 0,
+  "setjson_file_store_id": "",
+  "stencilLengthTechnicsBorderSpace": 0.0,
+  "stencilWidthTechnicsBorderSpace": 0.0
+}

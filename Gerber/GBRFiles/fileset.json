@@ -1,0 +1,65 @@
+{
+   "file_counts" : 12,
+   "file_list" : [
+      {
+         "file_describe_code" : 0,
+         "file_name" : "W5500_LX9_AD9957_sramv2_gps-B_Cu.gbr",
+         "layer_name" : "bl"
+      },
+      {
+         "file_describe_code" : 0,
+         "file_name" : "W5500_LX9_AD9957_sramv2_gps-B_Mask.gbr",
+         "layer_name" : "bs"
+      },
+      {
+         "file_describe_code" : 0,
+         "file_name" : "W5500_LX9_AD9957_sramv2_gps-B_Paste.gbr",
+         "layer_name" : "bp"
+      },
+      {
+         "file_describe_code" : 0,
+         "file_name" : "W5500_LX9_AD9957_sramv2_gps-B_Silkscreen.gbr",
+         "layer_name" : "bo"
+      },
+      {
+         "file_describe_code" : 2,
+         "file_name" : "W5500_LX9_AD9957_sramv2_gps-Edge_Cuts.gbr",
+         "layer_name" : "gko"
+      },
+      {
+         "file_describe_code" : 0,
+         "file_name" : "W5500_LX9_AD9957_sramv2_gps-F_Cu.gbr",
+         "layer_name" : "tl"
+      },
+      {
+         "file_describe_code" : 0,
+         "file_name" : "W5500_LX9_AD9957_sramv2_gps-F_Mask.gbr",
+         "layer_name" : "ts"
+      },
+      {
+         "file_describe_code" : 0,
+         "file_name" : "W5500_LX9_AD9957_sramv2_gps-F_Paste.gbr",
+         "layer_name" : "tp"
+      },
+      {
+         "file_describe_code" : 0,
+         "file_name" : "W5500_LX9_AD9957_sramv2_gps-F_Silkscreen.gbr",
+         "layer_name" : "to"
+      },
+      {
+         "file_describe_code" : 0,
+         "file_name" : "W5500_LX9_AD9957_sramv2_gps-NPTH.drl",
+         "layer_name" : "npth"
+      },
+      {
+         "file_describe_code" : 0,
+         "file_name" : "W5500_LX9_AD9957_sramv2_gps-PTH.drl",
+         "layer_name" : "drl"
+      },
+      {
+         "file_describe_code" : 4,
+         "file_name" : "W5500_LX9_AD9957_sramv2_gps-job.gbrjob",
+         "layer_name" : "nil"
+      }
+   ]
+}

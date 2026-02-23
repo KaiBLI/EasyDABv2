@@ -1,0 +1,64 @@
+{
+   "AR" : {
+      "ar4drl1_loc" : {
+         "x" : 0,
+         "y" : 0
+      },
+      "ar4drl1_min" : -1,
+      "ar4drl2_loc" : {
+         "x" : 0,
+         "y" : 0
+      },
+      "ar4drl2_min" : -1,
+      "ar4non_round_loc" : {
+         "x" : 0,
+         "y" : 0
+      },
+      "ar4non_round_min" : -1,
+      "ar_chk" : 0
+   },
+   "All_Checks" : 1,
+   "Cu_Lyr" : {
+      "bl_ent_cnt" : -1,
+      "cu_lyr_chk" : 0,
+      "tl_ent_cnt" : -1
+   },
+   "Drl_AR_SP" : {
+      "drl_ar_sp" : 0,
+      "drl_loc" : {
+         "x" : 0,
+         "y" : 0
+      }
+   },
+   "Hole_pad" : {
+      "hole_pad_aligned" : 1,
+      "hole_pad_aligned_rate" : -1,
+      "hole_pad_not_aligned" : {
+         "x" : 0,
+         "y" : 0
+      }
+   },
+   "Rout2cu" : {
+      "rout2cu_sp_bl" : -1,
+      "rout2cu_sp_bl_loc" : {
+         "x" : 0,
+         "y" : 0
+      },
+      "rout2cu_sp_chk" : 0,
+      "rout2cu_sp_tl" : -1,
+      "rout2cu_sp_tl_loc" : {
+         "x" : 0,
+         "y" : 0
+      }
+   },
+   "customer_pcb" : 1,
+   "half_hole_chk" : 0,
+   "line_sp_chk" : 0,
+   "line_width_chk" : 0,
+   "lyrs_chk" : 1,
+   "non_rout_data_chk" : 1,
+   "npth2cu_sp_chk" : 0,
+   "simple_rout" : 1,
+   "slot_chk" : 0,
+   "sm_pad_aligned" : 1
+}
