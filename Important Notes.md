@@ -6,6 +6,8 @@ C42 C43 - 27pF
 
 C46 C47 - 100pF
 
+These caps above are only required if you're using the Quartz oscillator. You do not need to install them if you are using the VCTCXO. 
+
 # CY7C1019DV33 SRAM Chip
 
 
