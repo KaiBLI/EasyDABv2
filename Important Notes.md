@@ -7,6 +7,8 @@ C42 C43 - 27pF
 C46 C47 - 100pF
 
 # CY7C1019DV33 SRAM Chip
+
+
 The main SRAM chip is designed in a socketed package, but it is generally surface mounted on this board, this can cause bad solder joints. 
 
 If you are getting partial/no audio and evidence of corrupt DAB frames, validate the solder joints on the main SRAM, this will likely be your problem. The FPGA can appear to be fully functional with this problem happening and the only problem be the lack of audio, trust me, check the main SRAM! 
