@@ -5,7 +5,7 @@ Troubleshooting
 
 Check that the Main SRAM is properly soldered, poor solder joints will cause stuttering and cutting out audio. This is especially the case if you find that it improves/gets worse if you move the board.
 
-# No PLL Lock LED / Status in Config Page shows " Unknown 00 "
+# No PLL Lock LED / Status in Config Page shows Unknown 00
 
 Ensure that the 0Ohm Resistor at R20 is populated. This provides 3v3 to the DAC via IC5 and is required for the DAC to operate. 
 Ensure that Oscillator is correctly installed and configured. If using the VCTCXO oscillator must be set to 19.4Mhz in the EasyDAB configuration, if using the non-VCTC Oscillator, then it must be configured for 24.576Mhz. The VCTCXO is polarized, ensure it is correctly orientated, if it is hot to touch, it has been installed the wrong way around. 
