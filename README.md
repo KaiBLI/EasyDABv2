@@ -20,26 +20,27 @@ As I'm a believer in easy, accessible and transparent documentation, I have dete
 So the aims of this project encompass the following:
 
 1. Documentation
-=======
+
 
 I will proceed to create an 'info dump' of all of my findings that I've learned through building this projects.
 
 2. Photos
-=======
+
 
 I will proceed to create high-resolution and detailed photos of both empty boards and fully assembled units so that others can see what these look like once assembled.
 
 3. A fresh bill of materials.
-=======
+
 
 The existing bill of materials leave too much up to assumption, therefore I will create a digikey cart and an Excel sheet of components required including example part numbers. It is assumed that components over time will be obsoleted and substitutes will be required, hence specification of components will be detailed as possible.
 
-4. New Features
-=======
+4.New Features
+
+
 The board already supports DRM and FM modulation in addition to DAB/DAB+, theortically additional FPGA core/firmware could be built for other digital modulation such as HDRadio/NRSC5 and DVB. 
 
-5. Board redesign.
-=======
+5. Board redesign
+
 
 The existing board requires redesign, solder pads overlay over existing component lables, requiring continuous reference to the PCB layout in CAD during assembly. This leaves opportunity to mistake and damage of expensive components (I'm looking at that Analog Devices Digital Synthesiser!). The board also allows different options depending on whether you wish to use a Single Frequency Network, FM or Digital Radio Mondiale usage, whether to use the mini360 modules and whether to use the band-pass filter. Given that there is little need for this board to be compact, outside of manufactoring costs, additional space can be used to make component locations clearer to the average hobbyist.
 
