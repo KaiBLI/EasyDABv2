@@ -1,9 +1,9 @@
 Troubleshooting
 =====
 
-# Stuttering Audio
+# Stuttering Audio / Corrupted DAB Stream
 
-Check that the Main SRAM is properly soldered, poor solder joints will cause stuttering and cutting out audio. This is especially the case if you find that it improves/gets worse if you move the board.
+Check that the Main SRAM is properly soldered, poor solder joints will cause stuttering and cutting out audio. This is especially the case if you find that it improves/gets worse if you move the board. This will also manifest as Frame errors in the DAB stream when using Welle.io.
 
 # No PLL Lock LED / Status in Config Page shows Unknown 00
 
