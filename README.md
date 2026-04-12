@@ -1,5 +1,5 @@
 # EasyDABv2
-Repository of Plain-English Information for Sergiy's EasyDABv2 DAB Exciter Board. This is not to be confused with the EasyDABv1 which is a USB-based DAB exciter board. The USB DAB Board requires a computer to handle modulation while the v2 board utilizes a FPGA for independent operation.
+Repository of info for Sergiy's EasyDABv2 DAB Exciter Board. This is not to be confused with the EasyDABv1 which is a USB-based DAB exciter board. The USB DAB Board requires a computer to handle modulation while the v2 board utilizes a FPGA for independent operation.
 
 ![Front-side of the EasyDAB6 v2 Board](https://github.com/KaiBLI/EasyDABv2/blob/main/Images/EasyDAB6%20Front.png)
 ![Back-side of the EasyDAB6 v2 Board](https://github.com/KaiBLI/EasyDABv2/blob/main/Images/EasyDAB6%20Back.png)
