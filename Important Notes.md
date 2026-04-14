@@ -15,6 +15,7 @@ The main SRAM chip is designed in a socketed package, but it is generally surfac
 
 If you are getting partial/no audio and evidence of corrupt DAB frames, validate the solder joints on the main SRAM, this will likely be your problem. The FPGA can appear to be fully functional with this problem happening and the only problem be the lack of audio, trust me, check the main SRAM! 
 
+This part is End-of-Life, so it may become difficult to acquire in the future. 
 
 # C76 Charge Pump Capacitor
 
