@@ -49,7 +49,7 @@ The existing board requires redesign, solder pads overlay over existing componen
 # Images 
 Exported Board Renders from KiCAD:
 ![EasyDAB6v2 Front Board Render](https://github.com/KaiBLI/EasyDABv2/blob/main/Images/EasyDAB%20v2%20Rev.6%20PCB%20Render-Front.png)
-![EasyDAB6v2 Back Board Render](https://github.com/KaiBLI/EasyDABv2/blob/main/Images/EasyDAB%20v2%20Rev.6%20PCB%20Render-Front.png)
+![EasyDAB6v2 Back Board Render](https://github.com/KaiBLI/EasyDABv2/blob/main/Images/EasyDAB%20v2%20Rev.6%20PCB%20Render-Back.png)
 
 The below are two separate concurrently operating multiplexes created using the ODR-mmbTools including ODR-DabMux, ODR-AudioEnc and ODR-PadEnc. ODR-PadEnc takes text from a file to create the DLS scrolling text and PNGs from a directory to create station logos, it then is exposed on a socket that AudioEnc can pull to add to the audio stream. ODR-AudioEnc is used to pull internet radio stations, convert them to MPEG-1 Layer II at 48kHz and provide them over an EDI or ZMQ stream to ODR-DabMux. ODR-DabMux is then used to create a DAB ensemble which is a collection of radio stations, programme data and other data compliant with the DAB standard which can then be sent to the EasyDAB modulator using ZMQ.
 
