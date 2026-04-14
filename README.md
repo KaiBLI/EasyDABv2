@@ -26,25 +26,28 @@ So the aims of this project encompass the following:
 
 I will proceed to create an 'info dump' of all of my findings that I've learned through building this projects.
 
+Status: 90% Done
+
 2. Photos
 
 
 I will proceed to create high-resolution and detailed photos of both empty boards and fully assembled units so that others can see what these look like once assembled.
+
+Status: 90% Done - Still need to add empty board pictures, only have renders at this point.
 
 3. A fresh bill of materials.
 
 
 The existing bill of materials leave too much up to assumption, therefore I will create a digikey cart and an Excel sheet of components required including example part numbers. It is assumed that components over time will be obsoleted and substitutes will be required, hence specification of components will be detailed as possible.
 
+Status: Done!
+
 4. New Features
 
 
-The board already supports DRM and FM modulation in addition to DAB/DAB+, theortically additional FPGA core/firmware could be built for other digital modulation such as HDRadio/NRSC5 and DVB. This would require input from additional contributors familiar with FPGA programming.
+The board already supports DRM and FM modulation in addition to DAB/DAB+, theoretically additional FPGA core/firmware could be built for other digital modulation such as HDRadio/NRSC5 and DVB. This would require input from additional contributors familiar with FPGA programming.
 
-5. Board redesign
-
-
-The existing board requires redesign, solder pads overlay over existing component lables, requiring continuous reference to the PCB layout in CAD during assembly. This leaves opportunity to mistake and damage of expensive components (I'm looking at that Analog Devices Digital Synthesiser!). The board also allows different options depending on whether you wish to use a Single Frequency Network, FM or Digital Radio Mondiale usage, whether to use the mini360 modules and whether to use the band-pass filter. Given that there is little need for this board to be compact, outside of manufactoring costs, additional space can be used to make component locations clearer to the average hobbyist.
+Status: Help Needed
 
 # Images 
 Exported Board Renders from KiCAD:
