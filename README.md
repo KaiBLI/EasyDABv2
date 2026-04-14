@@ -6,15 +6,6 @@ Assembled EasyDAB6 v2 Boards. PCBs printed with JLCPCB.
 ![Front-side of the EasyDAB6 v2 Board](https://github.com/KaiBLI/EasyDABv2/blob/main/Images/EasyDAB6%20Front%202.png)
 ![Back-side of the EasyDAB6 v2 Board](https://github.com/KaiBLI/EasyDABv2/blob/main/Images/EasyDAB6%20Back%202.png)
 
-Home-made DAB Mux with American Radio Stations
-![Home-made DAB Mux with American Stations from Northwest Washington](https://github.com/KaiBLI/EasyDABv2/blob/main/Images/EasyDAB%20American%20Mux.png)
-
-Re-created BBC National DAB mux broadcasting in NW Washington
-![Home-made DAB Mux with re-created BBC Radio Stations in the legacy DAB Standard](https://github.com/KaiBLI/EasyDABv2/blob/main/Images/EasyDAB%20BBC%20DAB%20Mux.png)
-
-Output from Qt6-DAB's SpectrumScope of the Re-created BBC National DAB Mux
-![QT6 Spectrumscope for the re-created BBC DAB Mux](https://github.com/KaiBLI/EasyDABv2/blob/main/Images/EasyDAB%20SpectrumScope.png)
-
 # Introducton
 First off, much of this is not my original work, credit goes to Sergiy for the design and release of the EasyDAB board. His site can be found here: https://tipok.org.ua/node/46
 
@@ -48,12 +39,24 @@ The existing bill of materials leave too much up to assumption, therefore I will
 4. New Features
 
 
-The board already supports DRM and FM modulation in addition to DAB/DAB+, theortically additional FPGA core/firmware could be built for other digital modulation such as HDRadio/NRSC5 and DVB. 
+The board already supports DRM and FM modulation in addition to DAB/DAB+, theortically additional FPGA core/firmware could be built for other digital modulation such as HDRadio/NRSC5 and DVB. This would require input from additional contributors familiar with FPGA programming.
 
 5. Board redesign
 
 
 The existing board requires redesign, solder pads overlay over existing component lables, requiring continuous reference to the PCB layout in CAD during assembly. This leaves opportunity to mistake and damage of expensive components (I'm looking at that Analog Devices Digital Synthesiser!). The board also allows different options depending on whether you wish to use a Single Frequency Network, FM or Digital Radio Mondiale usage, whether to use the mini360 modules and whether to use the band-pass filter. Given that there is little need for this board to be compact, outside of manufactoring costs, additional space can be used to make component locations clearer to the average hobbyist.
+
+# Images 
+
+Home-made DAB Mux with American Radio Stations
+![Home-made DAB Mux with American Stations from Northwest Washington](https://github.com/KaiBLI/EasyDABv2/blob/main/Images/EasyDAB%20American%20Mux.png)
+
+Re-created BBC National DAB mux broadcasting in NW Washington
+![Home-made DAB Mux with re-created BBC Radio Stations in the legacy DAB Standard](https://github.com/KaiBLI/EasyDABv2/blob/main/Images/EasyDAB%20BBC%20DAB%20Mux.png)
+
+Output from Qt6-DAB's SpectrumScope of the Re-created BBC National DAB Mux
+![QT6 Spectrumscope for the re-created BBC DAB Mux](https://github.com/KaiBLI/EasyDABv2/blob/main/Images/EasyDAB%20SpectrumScope.png)
+
 
 # Contact
 Questions and Comments can be directed to hoosk@retrohoosk.tv , I'd love to hear your experience with assembling one of these boards and other ideas for this repo. 
