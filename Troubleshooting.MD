@@ -20,7 +20,7 @@ Check and replace the Low-Noise Amplifier IC7.
 
 If the Booting LED stays lit, the FPGA has not picked up the EasyDAB core. Verify your SPI flash is correctly programmed and replace if needed. 
 
-# ETI Wait Light ocassionally flashes solid/bright and RF drops
+# ETI Wait Light occasionally flashes solid/bright and RF drops
 
 The buffer for the EasyDAB is not sufficient to maintain a stable output. Install additional SRAMs for the extra buffer. 
 
