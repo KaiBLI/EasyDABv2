@@ -1,6 +1,6 @@
 # Units are not provided for the below caps on the schematic, the correct units are Pico Farad, NOT Micro Farad. 
 
-Thank you to PancakePuppy for Saving my Ass.
+Thank you to PancakePuppy for confirming values.
 
 C42 C43 - 27pF
 
@@ -14,3 +14,8 @@ These caps above are only required if you're using the Quartz oscillator. You do
 The main SRAM chip is designed in a socketed package, but it is generally surface mounted on this board, this can cause bad solder joints. 
 
 If you are getting partial/no audio and evidence of corrupt DAB frames, validate the solder joints on the main SRAM, this will likely be your problem. The FPGA can appear to be fully functional with this problem happening and the only problem be the lack of audio, trust me, check the main SRAM! 
+
+
+# C76 Charge Pump Capacitor
+
+If you have elected to use the VCTCXO instead of a standard Quartz Oscillator, contrary to popular belief the relatively expensive charge pump capacitor is not required for the board to operate correctly if you are not using SFN. It has not been tested without being present when configured for SFN. Please report in if you have had success without the charge-pump cap with SFN. 
