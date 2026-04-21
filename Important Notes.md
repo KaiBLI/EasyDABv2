@@ -1,3 +1,7 @@
+# Noise on EasyDABv2 Cold Start
+The current schematics have an issue which causes a lot of noise on cold-start which require a 2K Ohm resistor bodge. Please see here for more info: https://tipok.org.ua/node/56 - It is warned that you will burn out your output amplifier if you do not address this.
+
+
 # Units are not provided for the below caps on the schematic, the correct units are Pico Farad, NOT Micro Farad. 
 
 Thank you to PancakePuppy for confirming values.
